@@ -1,0 +1,5 @@
+import axios from "axios";
+
+axios.defaults.baseURL = "https://beehive-social-3ec964865be0.herokuapp.com/"
+axios.defaults.headers.post['Content-Type'] = 'multipart/form-data'
+axios.defaults.withCredentials = true
